@@ -1,6 +1,6 @@
 {
   "@@locale": "es-MX",
-  "appTitle": "InvenTree",
+  "appTitle": "Ratan Industries",
   "@appTitle": {
     "description": "InvenTree application title string"
   },
@@ -282,7 +282,7 @@
   "@darkModeEnable": {},
   "showPkValue": "Show ID",
   "@showPkValue": {},
-  "showPkValueDetail": "",
+  "showPkValueDetail": "Display the internal ID (PK) value for parts, stock items and other objects",
   "@showPkValueDetail": {},
   "pk": "ID",
   "@pk": {},
@@ -412,7 +412,7 @@
   "@filterInProduction": {},
   "filterInProductionDetail": "Mostrar piezas en producción",
   "@filterInProductionDetail": {},
-  "filterPrimary": "Primario",
+  "filterPrimary": "Primary",
   "@filterPrimary": {},
   "filterPrimaryDetail": "Show primary supplier parts",
   "@filterPrimaryDetail": {},
@@ -640,8 +640,6 @@
   "@notes": {
     "description": "Notes"
   },
-  "noNotesFound": "No notes found",
-  "@noNotesFound": {},
   "notifications": "Notificaciones",
   "@notifications": {},
   "notificationsEmpty": "No hay notificaciones sin leer",

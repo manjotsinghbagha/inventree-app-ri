@@ -3,6 +3,7 @@ import "package:sembast/sembast.dart";
 
 import "package:inventree/helpers.dart";
 import "package:inventree/preferences.dart";
+import "package:inventree/secrets/access_pin_config.dart";
 
 class UserProfile {
   UserProfile({
@@ -275,7 +276,7 @@ class UserProfileDBManager {
     }
 
     bool added = await InvenTreeSettingsManager().getBool(
-      "demo_profile_added",
+      "default_profile_added",
       false,
     );
 
@@ -284,11 +285,11 @@ class UserProfileDBManager {
       return;
     }
 
-    await InvenTreeSettingsManager().setValue("demo_profile_added", true);
+    await InvenTreeSettingsManager().setValue("default_profile_added", true);
 
     UserProfile demoProfile = UserProfile(
-      name: "InvenTree Demo",
-      server: "https://demo.inventree.org",
+      name: "Ratan Industries InvenTree",
+      server: kURL,
     );
 
     await addProfile(demoProfile);

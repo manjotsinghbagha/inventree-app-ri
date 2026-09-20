@@ -1,6 +1,6 @@
 {
   "@@locale": "uk",
-  "appTitle": "InvenTree",
+  "appTitle": "Ratan Industries",
   "@appTitle": {
     "description": "InvenTree application title string"
   },
@@ -50,7 +50,7 @@
   "@allocatedItem": {},
   "allocatedStock": "Виділений Запас",
   "@allocatedStock": {},
-  "allocationEdit": "Редагувати Розподіл",
+  "allocationEdit": "Edit Allocation",
   "@allocationEdit": {},
   "aspectRatio16x9": "16:9",
   "@aspectRatio16x9": {},
@@ -62,7 +62,7 @@
   "@aspectRatioSquare": {},
   "allocatedToBuildOrders": "Allocated to Build Orders",
   "@allocatedToBuildOrders": {},
-  "allocatedToSalesOrders": "Виділений запас для Замовлень на збірку",
+  "allocatedToSalesOrders": "Allocated to Sales Orders",
   "@allocatedToSalesOrders": {},
   "appReleaseNotes": "Показати примітки до випуску",
   "@appReleaseNotes": {},
@@ -236,7 +236,7 @@
   "@confirmScan": {},
   "confirmScanDetail": "Підтверджувати інформацію про передавання запасів під час сканування штрих-кодів",
   "@confirmScanDetail": {},
-  "connectionCheck": "Перевірте підключення",
+  "connectionCheck": "Check Connection",
   "@connectionCheck": {},
   "connectionCheckDetail": "Checks that the server address is reachable. This does not verify your username or password.",
   "@connectionCheckDetail": {},
@@ -262,7 +262,7 @@
   "@cropImage": {},
   "cropImagePrompt": "Do you want to crop this image before uploading?",
   "@cropImagePrompt": {},
-  "useOriginal": "Використати Оригінал",
+  "useOriginal": "Use Original",
   "@useOriginal": {},
   "customer": "Покупець",
   "@customer": {},
@@ -640,8 +640,6 @@
   "@notes": {
     "description": "Notes"
   },
-  "noNotesFound": "No notes found",
-  "@noNotesFound": {},
   "notifications": "Сповіщення",
   "@notifications": {},
   "notificationsEmpty": "Непрочитані сповіщення відсутні",
@@ -724,7 +722,7 @@
   "@pricingSettingDetail": {},
   "partRequirements": "Part Requirements",
   "@partRequirements": {},
-  "partRequirementsSettingDetail": "Показати вимоги до деталей",
+  "partRequirementsSettingDetail": "Display part requirements",
   "@partRequirementsSettingDetail": {},
   "partSettings": "Налаштування позиції",
   "@partSettings": {},
@@ -756,7 +754,7 @@
   "@path": {},
   "pending": "В очікуванні",
   "@pending": {},
-  "issued": "Видано",
+  "issued": "Issued",
   "@issued": {},
   "cancelled": "Cancelled",
   "@cancelled": {},
@@ -904,7 +902,7 @@
   "@required": {
     "description": "This field is required"
   },
-  "requiredParts": "Необхідні деталі",
+  "requiredParts": "Required Parts",
   "@requiredParts": {},
   "response400": "Некоректний запит",
   "@response400": {},

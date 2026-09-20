@@ -1,6 +1,6 @@
 {
   "@@locale": "pt-BR",
-  "appTitle": "InvenTree",
+  "appTitle": "Ratan Industries",
   "@appTitle": {
     "description": "InvenTree application title string"
   },
@@ -640,8 +640,6 @@
   "@notes": {
     "description": "Notes"
   },
-  "noNotesFound": "Nenhuma nota encontrada",
-  "@noNotesFound": {},
   "notifications": "Notificacoes",
   "@notifications": {},
   "notificationsEmpty": "Nenhuma notificao pendente",

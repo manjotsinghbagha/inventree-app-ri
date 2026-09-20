@@ -24,9 +24,13 @@ import "package:inventree/settings/release.dart";
 import "package:inventree/user_profile.dart";
 import "package:inventree/widget/home.dart";
 
+import "package:inventree/licenses/inventree_license.dart";
+import "package:inventree/widget/access_gate.dart";
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  registerInvenTreeLicense();
+  
   AdaptiveThemeMode? savedThemeMode = await AdaptiveTheme.getThemeMode();
 
   await runZonedGuarded<Future<void>>(
@@ -218,8 +222,7 @@ class InvenTreeAppState extends State<StatefulWidget> {
         builder: OneContext().builder,
         navigatorKey: OneContext().key,
         onGenerateTitle: (BuildContext context) => "InvenTree",
-        home: InvenTreeHomePage(),
-        localizationsDelegates: [
+          home: AccessGate(child: InvenTreeHomePage()),        localizationsDelegates: [
           I18N.delegate,
           LocaleNamesLocalizationsDelegate(),
           GlobalMaterialLocalizations.delegate,

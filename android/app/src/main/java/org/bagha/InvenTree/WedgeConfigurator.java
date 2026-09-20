@@ -1,4 +1,4 @@
-package inventree.inventree_app;
+package org.bagha.InvenTree;
 
 import android.content.Context;
 import android.content.Intent;

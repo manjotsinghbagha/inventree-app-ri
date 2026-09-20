@@ -1,4 +1,4 @@
-package inventree.inventree_app;
+package org.bagha.InvenTree;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -20,7 +20,7 @@ import io.flutter.plugin.common.MethodChannel;
 
 public class MainActivity extends FlutterActivity {
 
-    static final String ACTION_CUSTOM_SCAN = "inventree.inventree_app.SCAN";
+    static final String ACTION_CUSTOM_SCAN = "org.bagha.InvenTree.SCAN";
 
     // Datalogic default wedge settings
     static final String ACTION_DATALOGIC_DECODE = "com.datalogic.decodewedge.decode_action";

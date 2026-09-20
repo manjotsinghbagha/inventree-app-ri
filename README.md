@@ -19,15 +19,8 @@ You can install the app via the following channels:
 
 ### Google Play Store (Android)
 
-Download and install from the [Google Play Store](https://play.google.com/store/apps/details?id=inventree.inventree_app&hl=en_AU)
+Download and install from the [Google Play Store](https://play.google.com/store/apps/details?id=org.bagha.inventree&hl=en_AU)
 
-### Apple Store (iOS)
-
-Download and install from the [Apple App Store](https://apps.apple.com/au/app/inventree/id1581731101)
-
-### Direct Download (Android)
-
-We provide direct downloads for Android users - view our [download page via polar.sh](https://buy.polar.sh/polar_cl_UnGILJ0c7P3hQrOrJs127oyLTTDOTHKrnqfCg30XtBI)
 
 ## User Documentation
 

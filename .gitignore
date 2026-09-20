@@ -86,3 +86,9 @@ ios/Podfile.lock
 
 # FVM Version Cache
 .fvm/
+
+
+
+android/key.properties
+android/app/upload-keystore.jks
+lib/secrets/access_pin_config.dart

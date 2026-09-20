@@ -251,7 +251,32 @@ class InvenTreeAboutWidget extends StatelessWidget {
         },
       ),
     );
-
+    tiles.add(
+      ListTile(
+        title: Text("Licenses"),
+        subtitle: Text("Open source licenses used in this app"),
+        leading: Icon(Icons.description_outlined, color: COLOR_ACTION),
+        trailing: LinkIcon(),
+        onTap: () {
+          showLicensePage(
+            context: context,
+            applicationName: info.appName,
+            applicationVersion: info.version,
+            applicationIcon: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12),
+              child: Image.asset(
+                "assets/image/icon.png",
+                width: 56,
+                height: 56,
+              ),
+            ),
+            applicationLegalese:
+                "© ${DateTime.now().year} Ratan Industries\n"
+                "Includes the InvenTree app, MIT Licensed",
+          );
+        },
+      ),
+    );
     tiles.add(
       ListTile(
         title: Text(L10().documentation),
